@@ -1,0 +1,10 @@
+> 问题一
+```
+The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+git push --set-upstream origin master
+```
+> 解决方案
+```
+git push --set-upstream origin master
+```
