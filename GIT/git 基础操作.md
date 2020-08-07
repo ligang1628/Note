@@ -212,3 +212,10 @@ git push origin -tags
 git tag -d tagName
 git push origin :refs/tags/tagName
 ```
+
+合并两个独立启动仓库的历史
+git pull origin master --allow-unrelated-histories
+
+git push origin master:master
+
+https://www.cnblogs.com/smiler/p/11576773.html
